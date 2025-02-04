@@ -8,6 +8,13 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "routes": [
+      {
+        "name": "tabs",
+        "screen": "app/(tabs)/_layout",
+        "layout": "app/(tabs)/CustomLayout"
+      }
+    ],
     "ios": {
       "supportsTablet": true
     },
